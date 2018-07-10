@@ -1,11 +1,12 @@
 import React from "react";
 
-export class Home extends React.Component{   
+export class User extends React.Component{   
     render(){
         return(
             <div className="container">
                     <div>
-                        <h4>Home</h4>
+                        <h4>This is a user page</h4>
+                        <p>User ID : </p>
                     </div>
             </div>
         );
